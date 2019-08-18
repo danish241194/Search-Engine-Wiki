@@ -1,0 +1,985 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.34.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kim Hyeon-Woo</title>
+    <ns>0</ns>
+    <id>42567205</id>
+    <redirect title="Kim Hyeon-woo" />
+    <revision>
+      <id>605512342</id>
+      <timestamp>2014-04-23T21:02:00Z</timestamp>
+      <contributor>
+        <username>Mohsen1248</username>
+        <id>3761856</id>
+      </contributor>
+      <comment>Mohsen1248 moved page [[Kim Hyeon-Woo]] to [[Kim Hyeon-woo]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">#REDIRECT [[Kim Hyeon-woo]]
+{{R from move}}</text>
+      <sha1>16kop2unyres98bcaxkfj1674q7xcfd</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Lee Se-Yeol</title>
+    <ns>0</ns>
+    <id>42567208</id>
+    <redirect title="Lee Se-yeol" />
+    <revision>
+      <id>605512408</id>
+      <timestamp>2014-04-23T21:02:32Z</timestamp>
+      <contributor>
+        <username>Mohsen1248</username>
+        <id>3761856</id>
+      </contributor>
+      <comment>Mohsen1248 moved page [[Lee Se-Yeol]] to [[Lee Se-yeol]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">#REDIRECT [[Lee Se-yeol]]
+{{R from move}}</text>
+      <sha1>6d40t9mkghnknpebayjf6uhmgswkp0r</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Marko Virtanen</title>
+    <ns>0</ns>
+    <id>42567219</id>
+    <revision>
+      <id>853776442</id>
+      <parentid>821144454</parentid>
+      <timestamp>2018-08-06T22:47:07Z</timestamp>
+      <contributor>
+        <username>Joeykai</username>
+        <id>14841472</id>
+      </contributor>
+      <minor />
+      <comment>/* External links */clean up, replaced: {{Finland-icehockey-bio-stub}} → {{Finland-icehockey-player-stub}} using [[Project:AWB|AWB]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">{{BLP sources|date=July 2014}}
+{{Use mdy dates|date=April 2014}}
+{{Infobox ice hockey player
+| name = Marko Virtanen
+| image = 
+| caption =
+| image_size = 225px
+| played_for = '''''[[SM-liiga]]'''''&lt;br&gt;[[JYP Jyväskylä]]&lt;br&gt;'''''[[Swedish Hockey League|Elitserien]]'''''&lt;br&gt;[[Färjestad BK]]&lt;br&gt;[[Södertälje SK]]
+| position = [[Winger (ice hockey)|Right Wing]]
+| height_ft = 5
+| height_in = 10
+| weight_lb = 181
+| shoots = Left
+| birth_date = {{birth date and age|1968|12|10}}
+| birth_place = [[Jyväskylä]], [[Finland]]
+| draft = Undrafted
+| career_start = 1988
+| career_end = 2000
+}}
+'''Marko Virtanen''' (born December 10, 1968) is a [[Finland|Finnish]] former professional [[ice hockey]] player. He is currently the head coach of [[JYP Jyväskylä]] in the Finnish [[Liiga]].
+
+Virtanen assumed the position of head coach for JYP with the [[2013–14 Liiga season]].&lt;ref name=&quot;jypliiga&quot;&gt;{{cite web | url=http://www.jypliiga.fi/uutiset/marko-virtanen-jypin-paavalmentajaksi-2013-2015 | title=Marko Virtanen JYPin päävalmentajaksi 2013 – 2015 | publisher=Jypliiga | accessdate=25 July 2014 | deadurl=yes | archiveurl=https://web.archive.org/web/20150316112244/http://www.jypliiga.fi/uutiset/marko-virtanen-jypin-paavalmentajaksi-2013-2015 | archivedate=March 16, 2015 | df=mdy-all }}&lt;/ref&gt;
+
+==References==
+{{Reflist}}
+
+==External links==
+*{{Eliteprospects}}
+*{{hockeydb|34132|Marko Virtanen}}
+
+{{DEFAULTSORT:Virtanen, Marko}}
+[[Category:1968 births]]
+[[Category:Living people]]
+[[Category:Färjestad BK players]]
+[[Category:Finnish ice hockey coaches]]
+[[Category:Finnish ice hockey players]]
+[[Category:JYP Jyväskylä players]]
+[[Category:Södertälje SK players]]
+
+
+{{Finland-icehockey-player-stub}}</text>
+      <sha1>54nhqn193dp90dnwvfv6ye46j26ahrs</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>João de Oliveira</title>
+    <ns>0</ns>
+    <id>42567221</id>
+    <redirect title="Filhão" />
+    <revision>
+      <id>605512554</id>
+      <timestamp>2014-04-23T21:03:26Z</timestamp>
+      <contributor>
+        <username>Lglukgl</username>
+        <id>17429104</id>
+      </contributor>
+      <comment>Lglukgl moved page [[João de Oliveira]] to [[Filhão]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">#REDIRECT [[Filhão]]
+{{R from move}}</text>
+      <sha1>g0a16mo20ljl3cpx5zrwlqoew1936we</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>File:David and Goliath -1700s.jpg</title>
+    <ns>6</ns>
+    <id>42567222</id>
+    <revision>
+      <id>873275566</id>
+      <parentid>860382997</parentid>
+      <timestamp>2018-12-12T05:11:03Z</timestamp>
+      <contributor>
+        <username>MarnetteD</username>
+        <id>220924</id>
+      </contributor>
+      <comment>rmv per [[Wikipedia:Templates for discussion/Log/2018 December 2#Template:Duplicate to Commons]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">{{information
+|description    = Painting, &quot;David Giving Thanks to God After the Death of Goliath.&quot; See also: [http://www.biblegateway.com/passage/?search=2%20Samuel%2022&amp;version=NIV &quot;David’s Song of Praise&quot;]
+|date           = 18th century
+|source         = [http://necspenecmetu.tumblr.com/post/46714644681/attributed-to-charles-errard-the-younger-david Necspenecmetu.tumblr.com] 
+|author         = attributed to [[Charles Errard the Younger]]
+|Permission     =  
+}}
+==License==
+{{PD-old}}
+{{Keep local}}
+[[Category:David]]
+{{Orphan image}}</text>
+      <sha1>ead2702jck178nlo1u8y6vt8jfuzeie</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>2014–15 Northern Illinois Huskies men's basketball team</title>
+    <ns>0</ns>
+    <id>42567223</id>
+    <revision>
+      <id>893359954</id>
+      <parentid>799893472</parentid>
+      <timestamp>2019-04-20T20:52:54Z</timestamp>
+      <contributor>
+        <username>InternetArchiveBot</username>
+        <id>27015025</id>
+      </contributor>
+      <comment>Rescuing 1 sources and tagging 0 as dead. #IABot (v2.0beta14)</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">{{Infobox NCAA team season
+|Mode              = Basketball
+|Year              = 2014–15
+|Prev year         = 2013–14
+|Next year         = 2015–16
+|Team              = Northern Illinois Huskies
+|Image             = Northern Illinois Huskies basketball wordmark.svg
+|ImageSize         = 250
+|Conference        = Mid-American Conference
+|Division          = West Division
+|ShortConference   = MAC
+|CoachRank         =
+|APRank            =
+|Record            = 14–16
+|ConfRecord        = 8–10
+|HeadCoach         = [[Mark Montgomery (basketball)|Mark Montgomery]]
+|HCYear            = 4th
+|AsstCoach1        = Jon Borovich
+|AsstCoach2        = Lou Dawkins
+|AsstCoach3        = Jason Larson
+|AsstCoach4        =
+|StadiumArena      = [[Convocation Center (Northern Illinois University)|Convocation Center]]
+|Champion          = 
+|BowlTourney       =
+|BowlTourneyResult =
+}}
+{{2014–15 Mid-American Conference men's basketball standings}}
+The '''2014–15 Northern Illinois Huskies men's basketball team''' represented [[Northern Illinois University]] during the [[2014–15 NCAA Division I men's basketball season]]. The Huskies, led by fourth year head coach [[Mark Montgomery (basketball)|Mark Montgomery]], played their home games at the [[Convocation Center (Northern Illinois University)|Convocation Center]] as members of the West Division of the [[Mid-American Conference]]. They finished the season 14–16, 8–10 in MAC play to finish in a tie for fourth place in the West Division. They lost in the first round of the [[2015 MAC Men's Basketball Tournament|MAC Tournament]] to Akron.
+
+==Roster==
+{{CBB roster/Header|year=2014|team=Northern Illinois Huskies|teamcolors=y|high_school=yes}}
+{{CBB roster/Player|first=Pete|last=Rakocevic|num=0|pos=C|ft=6|in=11|lbs=245|class=sr|rs=y|home=[[Chicago|Chicago, IL]]|high_school=[[Wilbraham &amp; Monson Academy]]&lt;br&gt;[[California State University, Sacramento|Sacramento State]]}}
+{{CBB roster/Player|first=Aaron|last=Armstead|num=2|pos=G|ft=6|in=4|lbs=195|class=sr|rs=|home=[[Chicago|Chicago, IL]]|high_school=[[Hales Franciscan High School|Hales Franciscan HS]]&lt;br&gt;[[San Jose City College]]}}
+{{CBB roster/Player|first=Dontel|last=Highsmith|num=4|pos=G|ft=6|in=2|lbs=190|class=so|rs=|home=[[Dowagiac, Michigan|Dowagiac, MI]]|high_school=Dowagiac HS}}
+{{CBB roster/Player|first=Travon|last=Baker|num=5|pos=G|ft=5|in=10|lbs=160|class=jr|rs=|home=[[Detroit|Detroit, MI]]|high_school=Detroit Consortium}}
+{{CBB roster/Player|first=Darrell|last=Bowie|num=10|pos=F|ft=6|in=6|lbs=220|class=jr|rs=|home=[[Milwaukee|Milwaukee, WI]]|high_school=La Jolla Prep}}
+{{CBB roster/Player|first=Chukwuemeka|last=Iroegbu|num=11|pos=G|ft=6|in=4|lbs=205|class=jr|rs=y|home=[[Elk Grove, California|Elk Grove, CA]]|high_school=[[Franklin High School (Elk Grove, California)|Franklin HS]]&lt;br&gt;[[Washington State University|Washington State]]}}
+{{CBB roster/Player|first=Jordan|last=Thomas|num=12|pos=G|ft=5|in=11|lbs=185|class=fr|rs=|home=[[Northfield, Illinois|Northfield, IL]]|high_school=[[Menomonee Falls High School|Menomonee Falls (WI)]]}}
+{{CBB roster/Player|first=Kevin|last=Gray|num=13|pos=F|ft=6|in=8|lbs=225|class=sr|rs=|home=[[Chicago|Chicago, IL]]|high_school=[[Gwendolyn Brooks College Preparatory Academy|Brooks Academy]]}}
+{{CBB roster/Player|first=Keith|last=Gray|num=21|pos=F|ft=6|in=8|lbs=225|class=jr|rs=y|home=[[Chicago|Chicago, IL]]|high_school=[[Gwendolyn Brooks College Preparatory Academy|Brooks Academy]]}}
+{{CBB roster/Player|first=Aaric|last=Armstead|num=23|pos=G|ft=6|in=5|lbs=190|class=so|rs=|home=[[Chicago|Chicago, IL]]|high_school=La Jolla Prep}}
+{{CBB roster/Player|first=Jay|last=DeHaan|num=25|pos=G|ft=6|in=2|lbs=175|class=fr|rs=|home=[[Naperville|Naperville, IL]]|high_school=[[Waubonsie Valley|Waubonsie Valley HS]]}}
+{{CBB roster/Player|first=Anthony|last=Johnson|num=33|pos=G|ft=6|in=3|lbs=190|class=sr|rs=y|home=[[Chicago|Chicago, IL]]|high_school=[[Whitney M. Young Magnet High School|Whitney Young HS]]&lt;br&gt;[[Purdue University|Purdue]]}}
+{{CBB roster/Player|first=Marin|last=Maric|num=34|pos=C|ft=6|in=10|lbs=240|class=so|rs=|home=[[Split, Croatia]]|high_school=[[La Lumiere School]]}}
+{{CBB roster/Player|first=Jordan|last=Threloff|num=42|pos=C|ft=6|in=9|lbs=255|class=sr|rs=y|home=[[DeKalb, Illinois|DeKalb, IL]]|high_school=[[DeKalb High School (Illinois)|DeKalb HS]]&lt;br&gt;[[Illinois State University|Illinois State]]}}
+{{CBB roster/Player|first=Michael|last=Orris|num=55|pos=G|ft=6|in=2|lbs=195|class=so|rs=y|home=[[Crete, Illinois|Crete, IL]]|high_school=[[Crete-Monee High School|Crete-Monee HS]]&lt;br&gt;[[Kansas State University|Kansas State]]}}
+{{CBB roster/Footer
+|head_coach=
+* [[Mark Montgomery (basketball)|Mark Montgomery]] ({{college|Michigan State}})
+|asst_coach=
+* Jon Borovich ({{college|Central Michigan}})
+* Lou Dawkins ({{college|Tulsa}})
+* Jason Larson ({{college|Grand Valley State}})
+}}
+
+==Schedule==
+{{CBB schedule start|time=|ranklink=[[2014-15 NCAA Division I men's basketball rankings]]|rankyear=2014|rank=no|tv=|record=yes|attend=yes}}
+|-
+!colspan=9 style=&quot;background:#000000; color:#cc1122;&quot; |  Exhibition
+{{CBB schedule entry
+| date         = 11/08/2014
+| time         = 5:00 PM
+| w/l          = w
+| nonconf      = yes
+| homecoming   =
+| away         = 
+| neutral      = 
+| rank         = no
+| opponent     = [[Roosevelt University|Roosevelt]]
+| opprank      = 
+| site_stadium = [[Convocation Center (Northern Illinois University)|Convocation Center]]
+| site_cityst  = [[DeKalb, Illinois|DeKalb, IL]]
+| attend       = 1,242
+| tv           = 
+| score        = 71–44
+| overtime     =
+| record       = 
+}}
+|-
+!colspan=9 style=&quot;background:#000000; color:#cc1122;&quot; | Regular Season
+{{CBB schedule entry
+| date         = 11/15/2014
+| time         = 3:00 PM
+| w/l          = w
+| nonconf      = yes
+| homecoming   =
+| away         = 
+| neutral      =
+| rank         = no
+| opponent     = [[Aurora University|Aurora]]
+| opprank      =
+| site_stadium = Convocation Center
+| site_cityst  = DeKalb, IL
+| gamename     = 
+| tv           = [[ESPN3]]
+| score        = 86-56
+| overtime     =
+| record       = 1-0
+| attend       = 981
+}}
+{{CBB schedule entry
+| date         = 11/20/2014
+| time         = 8:00 PM
+| w/l          = w
+| nonconf      = yes
+| homecoming   =
+| away         = 
+| neutral      =
+| rank         = no
+| opponent     = [[2014–15 Idaho Vandals men's basketball team|Idaho]]
+| opprank      =
+| site_stadium = Convocation Center
+| site_cityst  = DeKalb, IL
+| gamename     = 
+| tv           = ESPN3
+| score        = 78–67
+| overtime     =
+| record       = 2–0
+| attend       = 1,003
+}}
+{{CBB schedule entry
+| date         = 11/26/2014
+| time         = 7:30 PM
+| w/l          = l
+| nonconf      = yes
+| homecoming   =
+| away         = yes
+| neutral      =
+| rank         = no
+| opponent     = [[2014–15 Iowa Hawkeyes men's basketball team|Iowa]]
+| opprank      =
+| site_stadium = [[Carver-Hawkeye Arena]]
+| site_cityst  = [[Iowa City, IA]]
+| gamename     = 
+| tv           = ESPN3
+| score        = 49–70
+| overtime     =
+| attend       = 14,357
+| record       = 2–1
+}}
+{{CBB schedule entry
+| date         = 11/30/2014
+| time         = 1:00 PM
+| w/l          = w
+| nonconf      = yes
+| homecoming   =
+| away         = 
+| neutral      =
+| rank         = no
+| opponent     = [[2014–15 Maine Black Bears men's basketball team|Maine]]
+| opprank      =
+| site_stadium = Convocation Center
+| site_cityst  = DeKalb, IL
+| gamename     = 
+| tv           = ESPN3
+| score        = 61–56
+| overtime     =
+| attend       = 716
+| record       = 3–1
+}}
+{{CBB schedule entry
+| date         = 12/02/2014
+| time         = 8:00 PM
+| w/l          = l
+| nonconf      = yes
+| homecoming   =
+| away         = yes
+| neutral      =
+| rank         = no
+| opponent     = [[2014–15 DePaul Blue Demons men's basketball team|DePaul]]
+| opprank      =
+| site_stadium = [[Allstate Arena]]
+| site_cityst  = [[Rosemont, Illinois|Rosemont, IL]]
+| gamename     = 
+| tv           = [[Fox Sports 1|FS1]]
+| score        = 67–78
+| overtime     =
+| attend       = 5,457
+| record       = 3–2
+}}
+{{CBB schedule entry
+| date         = 12/13/2014
+| time         = 7:00 PM
+| w/l          = l
+| nonconf      = yes
+| homecoming   =
+| away         = yes
+| neutral      =
+| rank         = no
+| opponent     = [[2014–15 Eastern Illinois Panthers men's basketball team|Eastern Illinois]]
+| opprank      =
+| site_stadium = [[Lantz Arena]]
+| site_cityst  = [[Charleston, Illinois|Charleston, IL]]
+| gamename     = 
+| tv           = 
+| score        = 55–59
+| overtime     =
+| attend       = 2,044
+| record       = 3–3
+}}
+{{CBB schedule entry
+| date         = 12/16/2014
+| time         = 7:00 PM
+| w/l          = w
+| nonconf      = yes
+| homecoming   =
+| away         = 
+| neutral      =
+| rank         = no
+| opponent     = [[2014–15 Mississippi Valley State Delta Devils basketball team|Mississippi Valley State]]
+| opprank      =
+| site_stadium = Convocation Center
+| site_cityst  = DeKalb, IL
+| gamename     = 
+| tv           = ESPN3
+| score        = 71–64
+| overtime     =
+| attend       = 680
+| record       = 4–3
+}}
+{{CBB schedule entry
+| date         = 12/19/2014
+| time         = 6:00 PM
+| w/l          = l
+| nonconf      = yes
+| homecoming   =
+| away         = yes
+| neutral      =
+| rank         = no
+| opponent     = [[2014–15 Dartmouth Big Green men's basketball team|Dartmouth]]
+| opprank      =
+| site_stadium = [[Leede Arena]]
+| site_cityst  = [[Hanover, New Hampshire|Hanover, NH]]
+| gamename     = 
+| tv           = 
+| score        = 55–58
+| overtime     = OT
+| attend       = 701
+| record       = 4–4
+}}
+{{CBB schedule entry
+| date         = 12/22/2014
+| time         = 6:00 PM
+| w/l          = l
+| nonconf      = yes
+| homecoming   =
+| away         = yes
+| neutral      = 
+| rank         = no
+| opponent     = [[2014–15 Notre Dame Fighting Irish men's basketball team|Notre Dame]]
+| opprank      = 16
+| site_stadium = [[Edmund P. Joyce Center]]
+| site_cityst  = [[South Bend, Indiana|South Bend, IN]]
+| gamename     = 
+| tv           = ESPN3
+| score        = 66–91
+| overtime     = 
+| attend       = 7,471
+| record       = 4–5
+}}
+{{CBB schedule entry
+| date         = 12/29/2014
+| time         = 7:00 PM
+| w/l          = w
+| nonconf      = yes
+| homecoming   =
+| away         = 
+| neutral      =
+| rank         = no
+| opponent     = [[2014–15 Hampton Pirates men's basketball team|Hampton]]
+| opprank      = 
+| site_stadium = Convocation Center
+| site_cityst  = DeKalb, IL
+| gamename     = 
+| tv           = ESPN3
+| score        = 83–51
+| overtime     = 
+| attend       = 802
+| record       = 5–5
+}}
+{{CBB schedule entry
+| date         = 1/02/2015
+| time         = 7:00 PM
+| w/l          = w
+| nonconf      = yes
+| neutral      = 
+| rank         = no
+| opponent     = [[2014–15 UC Riverside Highlanders men's basketball team|UC Riverside]]
+| opprank      = 
+| site_stadium = Convocation Center
+| site_cityst  = DeKalb, IL
+| gamename     = 
+| tv           = ESPN3
+| score        = 72–67
+| overtime     = OT
+| attend       = 873
+| record       = 6–5
+}}
+{{CBB schedule entry
+| date         = 1/07/2015
+| time         = 6:00 PM
+| w/l          = w
+| nonconf      = 
+| homecoming   =
+| away         = yes
+| neutral      =
+| rank         = no
+| opponent     = [[2014–15 Ohio Bobcats men's basketball team|Ohio]]
+| opprank      =
+| site_stadium = [[Convocation Center (Ohio University)|Convocation Center]]
+| site_cityst  = [[Athens, Ohio|Athens, OH]]
+| gamename     = 
+| tv           = 
+| score        = 70–60
+| overtime     =
+| attend       = 5,743
+| record       = 7–5 (1–0)
+}}
+{{CBB schedule entry
+| date         = 1/10/2015
+| time         = 7:00 PM
+| w/l          = l
+| nonconf      = 
+| homecoming   =
+| away         =
+| neutral      =
+| rank         = no
+| opponent     = [[2014–15 Kent State Golden Flashes men's basketball team|Kent State]]
+| opprank      =
+| site_stadium = Convocation Center
+| site_cityst  = DeKalb, IL
+| gamename     = 
+| tv           = ESPN3
+| score        = 65–67
+| overtime     =
+| attend       = 1,058
+| record       = 7–6 (1–1)
+}}
+{{CBB schedule entry
+| date         = 1/14/2015
+| time         = 6:00 PM
+| w/l          = l
+| nonconf      = 
+| homecoming   =
+| away         = yes
+| neutral      =
+| rank         = no
+| opponent     = [[2014–15 Buffalo Bulls men's basketball team|Buffalo]]
+| opprank      =
+| site_stadium = [[Alumni Arena (University at Buffalo)|Alumni Arena]]
+| site_cityst  = [[Amherst, New York|Amherst, NY]]
+| gamename     = 
+| tv           = ESPN3
+| score        = 63–82
+| overtime     =
+| attend       = 2,258
+| record       = 7–7 (1–2)
+}}
+{{CBB schedule entry
+| date         = 1/17/2015
+| time         = 11:00 AM
+| w/l          = l
+| nonconf      = 
+| homecoming   =
+| away         = yes
+| neutral      =
+| rank         = no
+| opponent     = [[2014–15 Eastern Michigan Eagles men's basketball team|Eastern Michigan]]
+| opprank      =
+| site_stadium = [[Convocation Center (Eastern Michigan University)|Convocation Center]]
+| site_cityst  = [[Ypsilanti, Michigan|Ypsilanti, MI]]
+| gamename     = 
+| tv           = 
+| score        = 46–54
+| overtime     =
+| attend       = 786
+| record       = 7–8 (1–3)
+}}
+{{CBB schedule entry
+| date         = 1/21/2015
+| time         = 7:00 PM
+| w/l          = w
+| nonconf      = 
+| homecoming   =
+| away         = 
+| neutral      =
+| rank         = no
+| opponent     = [[2014–15 Akron Zips men's basketball team|Akron]]
+| opprank      =
+| site_stadium = Convocation Center
+| site_cityst  = DeKalb, IL
+| gamename     = 
+| tv           = ESPN3
+| score        = 64–61
+| overtime     =
+| attend       = 957
+| record       = 8–8 (2–3) 
+}}
+{{CBB schedule entry
+| date         = 1/24/2015
+| time         = 3:00 PM
+| w/l          = l
+| nonconf      = 
+| homecoming   =
+| away         = 
+| neutral      =
+| rank         = no
+| opponent     = [[2014–15 Miami RedHawks men's basketball team|Miami (OH)]]
+| opprank      =
+| site_stadium = Convocation Center
+| site_cityst  = DeKalb, IL
+| gamename     = 
+| tv           = ESPN3
+| score        = 55–60
+| overtime     =
+| attend       = 1,774
+| record       = 8–9 (2–4) 
+}}
+{{CBB schedule entry
+| date         = 1/27/2015
+| time         = 6:00 PM
+| w/l          = l
+| nonconf      = 
+| homecoming   =
+| away         = 
+| neutral      =
+| rank         = no
+| opponent     = [[2014–15 Bowling Green Falcons men's basketball team|Bowling Green]]
+| opprank      =
+| site_stadium = [[Stroh Center]]
+| site_cityst  = [[Bowling Green, Ohio|Bowling Green, OH]]
+| gamename     = 
+| tv           = 
+| score        = 46–56
+| overtime     =
+| attend       = 1,560
+| record       = 8–10 (2–5) 
+}}
+{{CBB schedule entry
+| date         = 1/31/2015
+| time         = 7:00 PM
+| w/l          = l
+| nonconf      = 
+| homecoming   =
+| away         = 
+| neutral      =
+| rank         = no
+| opponent     = [[2014–15 Toledo Rockets men's basketball team|Toledo]]
+| opprank      =
+| site_stadium = Convocation Center
+| site_cityst  = DeKalb, IL
+| gamename     = 
+| tv           = ESPN3
+| score        = 69–80
+| overtime     =
+| attend       = 1,635
+| record       = 8–11 (2–6)
+}}
+{{CBB schedule entry
+| date         = 2/04/2015
+| time         = 6:00 PM
+| w/l          = w
+| nonconf      = 
+| homecoming   =
+| away         = yes
+| neutral      =
+| rank         = no
+| opponent     = Miami (OH)
+| opprank      =
+| site_stadium = [[Millett Hall]]
+| site_cityst  = [[Oxford, Ohio|Oxford, OH]]
+| gamename     = 
+| tv           = 
+| score        = 69–67
+| overtime     =
+| attend       = 1,147
+| record       = 9–11 (3–6)
+}}
+{{CBB schedule entry
+| date         = 2/07/2015
+| time         = 7:00 PM
+| w/l          = l
+| nonconf      = 
+| homecoming   =
+| away         = 
+| neutral      =
+| rank         = no
+| opponent     = Bowling Green
+| opprank      =
+| site_stadium = Convocation Center
+| site_cityst  = DeKalb, IL
+| gamename     = 
+| tv           = ESPN3
+| score        = 65–69
+| overtime     =
+| attend       = 2,475
+| record       = 9–12 (3–7)
+}}
+{{CBB schedule entry
+| date         = 2/10/2015
+| time         = 7:00 PM
+| w/l          = w
+| nonconf      = w
+| homecoming   =
+| away         =
+| neutral      =
+| rank         = no
+| opponent     = [[2014–15 Ball State Cardinals men's basketball team|Ball State]]
+| opprank      =
+| site_stadium = Convocation Center
+| site_cityst  = DeKalb, IL
+| gamename     = 
+| tv           = ESPN3
+| score        = 75–63
+| overtime     =
+| attend       = 975
+| record       = 10–12 (4–7) 
+}}
+{{CBB schedule entry
+| date         = 2/14/2015
+| time         = 3:30 PM
+| w/l          = l
+| nonconf      = 
+| homecoming   =
+| away         = yes
+| neutral      =
+| rank         = no
+| opponent     = [[2014–15 Western Michigan Broncos men's basketball team|Western Michigan]]
+| opprank      =
+| site_stadium = [[University Arena (Western Michigan University)|University Arena]]
+| site_cityst  = [[Kalamazoo, Michigan|Kalamazoo, MI]]
+| gamename     = 
+| tv           = 
+| score        = 65–69
+| overtime     =
+| attend       = 2,712
+| record       = 10–13 (4–8)
+}}
+{{CBB schedule entry
+| date         = 2/18/2015
+| time         = 6:00 PM
+| w/l          = l
+| nonconf      = 
+| homecoming   =
+| away         = yes
+| neutral      =
+| rank         = no
+| opponent     = [[2014–15 Central Michigan Chippewas men's basketball team|Central Michigan]]
+| opprank      =
+| site_stadium = [[McGuirk Arena]]
+| site_cityst  = [[Mount Pleasant, Michigan|Mount Pleasant, MI]]
+| gamename     = 
+| tv           = ESPN3
+| score        = 66–68
+| overtime     =
+| attend       = 2,524
+| record       = 10–14 (4–9)
+}}
+{{CBB schedule entry
+| date         = 2/21/2015
+| time         = 7:00 PM
+| w/l          = l
+| nonconf      = 
+| homecoming   =
+| away         =
+| neutral      =
+| rank         = no
+| opponent     = Eastern Michigan
+| opprank      =
+| site_stadium = Convocation Center
+| site_cityst  = DeKalb, IL
+| gamename     = 
+| tv           = ESPN3
+| score        = 65–73
+| overtime     =
+| attend       = 2,302
+| record       = 10–15 (4–10)
+}}
+{{CBB schedule entry
+| date         = 2/24/2015
+| time         = 6:00 PM
+| w/l          = 
+| nonconf      = 
+| homecoming   =
+| away         = yes
+| neutral      =
+| rank         = no
+| opponent     = Toledo
+| opprank      =
+| site_stadium = [[Savage Arena]]
+| site_cityst  = [[Toledo, Ohio|Toledo, OH]]
+| gamename     = 
+| tv           = ESPN3
+| score        = '''Postponed'''&lt;ref&gt;{{cite web | author = | title =Toledo-Northern Illinois men's game postponed | website =[[Toledo Blade]] | date =February 24, 2015 | url =http://www.bcsn.tv/news_article/show/483248 | accessdate =February 24, 2015 | archive-url =https://web.archive.org/web/20150225052545/http://www.bcsn.tv/news_article/show/483248 | archive-date =February 25, 2015 | dead-url =yes | df =mdy-all }}&lt;/ref&gt;
+| overtime     =
+| attend       = &amp;nbsp;
+| record       = 
+}}
+{{CBB schedule entry
+| date         = 2/25/2015
+| time         = 7:00 PM
+| w/l          = w
+| nonconf      = 
+| homecoming   =
+| away         = yes
+| neutral      =
+| rank         = no
+| opponent     = Toledo
+| opprank      =
+| site_stadium = Savage Arena
+| site_cityst  = Toledo, OH
+| gamename     = 
+| tv           = ESPN3
+| score        = 84–82
+| overtime     =
+| attend       = 4,317
+| record       = 11–15 (5–10)
+}}
+{{CBB schedule entry
+| date         = 2/28/2015
+| time         = 7:00 PM
+| w/l          = w
+| nonconf      = 
+| homecoming   =
+| away         = 
+| neutral      =
+| rank         = no
+| opponent     = Central Michigan
+| opprank      =
+| site_stadium = Convocation Center
+| site_cityst  = DeKalb, IL
+| gamename     = 
+| tv           = ESPN3
+| score        = 73–55
+| overtime     =
+| attend       = 1,548
+| record       = 12–15 (6–10)
+}}
+{{CBB schedule entry
+| date         = 3/03/2015
+| time         = 7:00 PM
+| w/l          = w
+| nonconf      = 
+| homecoming   =
+| away         = 
+| neutral      =
+| rank         = no
+| opponent     = Western Michigan
+| opprank      =
+| site_stadium = Convocation Center
+| site_cityst  = DeKalb, IL
+| gamename     = 
+| tv           = ESPN3
+| score        = 65–63
+| overtime     =
+| attend       = 992
+| record       = 13–15 (7–10) 
+}}
+{{CBB schedule entry
+| date         = 3/06/2015
+| time         = 6:00 PM
+| w/l          = w
+| nonconf      = 
+| homecoming   =
+| away         = yes
+| neutral      =
+| rank         = no
+| opponent     = Ball State
+| opprank      =
+| site_stadium = [[John E. Worthen Arena]]
+| site_cityst  = [[Muncie, Indiana|Muncie, IN]]
+| gamename     = 
+| tv           = 
+| score        = 71–67
+| overtime     = OT
+| attend       = 2,585
+| record       = 14–15 (8–10) 
+}}
+|-
+!colspan=9 style=&quot;background:#000000; color:#cc1122;&quot; | [[2015 MAC Men's Basketball Tournament|&lt;span style=&quot;color:#cc1122;&quot;&gt;MAC Tournament&lt;/span&gt;]]
+{{CBB schedule entry
+| date         = 3/09/2015
+| time         = 7:00 pm
+| w/l          = l
+| nonconf      = 
+| away         = yes
+| rank         = no
+| opponent     = Akron 
+| site_stadium = [[James A. Rhodes Arena]]
+| site_cityst  = [[Akron, Ohio|Akron, OH]]
+| gamename     = First round
+| tv           = 
+| score        = 52–76
+| overtime     = 
+| attend       = 2,631
+| record       = 14–16
+}}
+{{CBB schedule end
+| rank     = yes
+| poll     = [[AP Poll]]
+| timezone = [[Central Time Zone|Central Time]]
+}}
+
+==References==
+{{reflist}}
+
+{{Northern Illinois Huskies men's basketball navbox}}
+
+{{DEFAULTSORT:2014-15 Northern Illinois Huskies men's basketball Team}}
+[[Category:2014–15 Mid-American Conference men's basketball season|Northern Illinois]]
+[[Category:Northern Illinois Huskies men's basketball seasons]]
+[[Category:2014 in sports in Illinois|Northern]]
+[[Category:2015 in sports in Illinois|Northern]]</text>
+      <sha1>bo1jkrft26w9gucusclpko40ckgifcy</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Scottish people of Russian-Jewish descent</title>
+    <ns>14</ns>
+    <id>42567226</id>
+    <revision>
+      <id>605512626</id>
+      <timestamp>2014-04-23T21:03:59Z</timestamp>
+      <contributor>
+        <username>Fixer88</username>
+        <id>9945971</id>
+      </contributor>
+      <comment>[[WP:AES|←]]Created page with '[[Category:Scottish people of Jewish descent|Russian]] [[Category:Scottish people of Russian descent|Jews]] Category:British people of Russian-Jewish descent|R...'</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">[[Category:Scottish people of Jewish descent|Russian]]
+[[Category:Scottish people of Russian descent|Jews]]
+[[Category:British people of Russian-Jewish descent|Russian]]</text>
+      <sha1>dwz0tcwsrw05v3uyeau7k90fk4h14lt</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Kim Jin-Hyeok</title>
+    <ns>0</ns>
+    <id>42567232</id>
+    <redirect title="Kim Jin-hyeok" />
+    <revision>
+      <id>605512796</id>
+      <timestamp>2014-04-23T21:05:17Z</timestamp>
+      <contributor>
+        <username>Mohsen1248</username>
+        <id>3761856</id>
+      </contributor>
+      <comment>Mohsen1248 moved page [[Kim Jin-Hyeok]] to [[Kim Jin-hyeok]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">#REDIRECT [[Kim Jin-hyeok]]
+{{R from move}}</text>
+      <sha1>gocjzrgxzegl6rkf7zu6cxpgp3viwr1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Sherri Jean Tucker</title>
+    <ns>0</ns>
+    <id>42567236</id>
+    <redirect title="Sherrie Tucker" />
+    <revision>
+      <id>605512907</id>
+      <timestamp>2014-04-23T21:06:07Z</timestamp>
+      <contributor>
+        <username>Eurodog</username>
+        <id>848978</id>
+      </contributor>
+      <comment>[[WP:AES|←]]Redirected page to [[Sherrie Tucker]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">#redirect [[Sherrie Tucker]]</text>
+      <sha1>kfl0cdpn4ms7t3quza9g7waxdr272ve</sha1>
+    </revision>
+  </page>
+</mediawiki>
