@@ -1,10 +1,27 @@
+from math import log
 import sys
 from nltk.stem.snowball import SnowballStemmer
 from nltk.corpus import stopwords 
+import re
+import datetime
+files_to_index_at_a_time = 50000
 
 STOPWORDS = set(stopwords.words('english')) 
 URL_STOP_WORDS = set(["http", "https", "www", "ftp", "com", "net", "org", "archives", "pdf", "html", "png", "txt", "redirect"])
-
+Pstemmer = SnowballStemmer("english")
+import bisect
+def lower_bound(list_,word):
+    i = bisect.bisect_left(list_,word)
+    if(i<len(list_) and list_[i] == word):
+        return i
+    else:
+        return i-1
+def BinarySearch(list_,word): 
+    i = bisect.bisect_left(list_,word) 
+    if i != len(list_) and list_[i] == word: 
+        return i 
+    else: 
+        return -1
 def isEnglish(s):
     try:
         s.encode(encoding='utf-8').decode('ascii')
@@ -22,7 +39,6 @@ class Query:
     def stop_word_removal(self):
         self.query = [x for x in self.query if x not in STOPWORDS and x not in URL_STOP_WORDS and isEnglish(x)]
     def Stemming(self):
-        Pstemmer = SnowballStemmer("english")
         self.query = [Pstemmer.stem(titl) for titl in self.query]
     def process(self):
         self.lower()
@@ -31,92 +47,157 @@ class Query:
         self.Stemming()
     def value(self):
         return self.query
-def title_for_docs(doc_ids,title_pid,k):
-    title = []
-    count = 0
-    for doc_id in doc_ids:
-        title.append(title_pid[int(doc_id[1:])])
-        count+=1
-        if count==k:
-            break
-    return title
-def Search(query,search_dictionary):
+    
+
+#     print(secondary_list)
+def get_posting_list(word):
+    global secondary_list
+    posting_list =  ""
+    offset_file_num = lower_bound(secondary_list,word)
+#     print("o f n",offset_file_num)
+    if offset_file_num !=-1:
+        fp = open(index_folder_path+"/offset"+str(offset_file_num+1)+".txt")
+        dict_ = {}
+        while True:
+            string_ = fp.readline().strip();
+            if string_=='':
+                break;
+            dict_[string_.split(" ")[0]]=int(string_.split(" ")[1])
+        fp.close()
+        fp = open(index_folder_path+"/index"+str(offset_file_num+1)+".txt")
+        if word not in dict_:
+            return posting_list
+        fp.seek(dict_[word])
+        posting_list = fp.readline().strip().split(":")[1]
+        fp.close()
+    return posting_list
+def process_posting_field_tf(posting,field):
+    all_parts = posting.split("|")
+    dict_={}
+    for part in all_parts:
+        doc = int(part.split("-")[0])
+        stng = r""+str(field)+'\d*'
+        pattern = re.findall(stng,part.split("-")[1])
+        sum_=0
+        if len(pattern)>0:
+            sum_ = int(pattern[0][1:])
+            dict_[doc]=sum_
+    return dict_
+def process_posting_idf(posting):
+    Total_documents = 19567268+1#page.pid+1
+    return 1.0 + log(float(Total_documents) / len(posting.split("|")))
+def process_posting_normal_tf(posting):
+    all_parts = posting.split("|")
+    dict_={}
+    for part in all_parts:
+        doc = int(part.split("-")[0])
+        pattern = re.findall(r'[a-z]\d*',part.split("-")[1])
+        sum_=0
+        for p in pattern:
+            sum_+=int(p[1:])
+        dict_[doc]=sum_
+    return dict_
+def calculate_tf_idf_of_docs_normal(query):
     Q = Query(query)
     Q.process()
-    query =  Q.value()
-    all_word_docs =[]
-    for word in query:
-        if word not in search_dictionary:
+    query_parts =  Q.value()
+#     print(query_parts)
+    docs = {}
+    for query_part in query_parts:
+        posting = get_posting_list(query_part)
+#         print(posting)
+        if len(posting)<=0:
             continue
-        line = search_dictionary[word].split("|")
-        docs=set()
-        for doc in line:
-            docs.add(doc.split("-")[0])
-        if(len(docs)>0):
-            all_word_docs.append(docs)
-    return sorted_results(all_word_docs)
-def sorted_results(all_word_docs):
-    if len(all_word_docs)==0:
-        return []
-    all_ = set.intersection(*all_word_docs)    
-    union = set.union(*all_word_docs)
-    diff = set.difference(union,all_)
-    all_=list(all_) + list(diff)
-    return all_
-def load_index_dictionary(path_to_index_folder):
-    dictionary_search = {}
-    fp = open(path_to_index_folder+"/indexfile.txt")
-    for i, line in enumerate(fp):#enumerate dont load whole in memory
-        word , rest = line.split(":")[0],line.split(":")[1][:-1]
-        dictionary_search[word] = rest
-    fp.close()
-    return dictionary_search
-def load_titles(path_to_index_folder):
-    titles = []
-    fp = open(path_to_index_folder+"/title.txt")
-    for i, line in enumerate(fp):#enumerate dont load whole in memory
-        titles.append(line[:-1])
-    fp.close()
-    return titles
+        dict_ = process_posting_normal_tf(posting)
+        idf = process_posting_idf(posting)
+        for key in dict_.keys():
+            try:
+                docs[key]+=log(1+dict_[key])*idf
+            except:
+                docs[key]=log(1+dict_[key])*idf
+    return docs
 
-def read_file(testfile):
-    with open(testfile, 'r') as file:
-        queries = file.readlines()
-    return queries
+def calculate_tf_idf_of_docs_field(query):
+    query = query.lower()
+    field_dict = get_field_list(query)
+    field_results = []
+    docs = {}
+    for key in field_dict.keys():
+        key_list = []
+        lst = field_dict[key]
+        for word in lst:
+            word = Pstemmer.stem(word)
+            posting = get_posting_list(word)
+            if(len(posting)<=0):
+                continue
+            dic_ = process_posting_field_tf(posting,key)
+            idf = process_posting_idf(posting)
+            for key_ in dic_.keys():
+                try:
+                    docs[key_]+=log(1+dic_[key_])*idf
+                except:
+                    docs[key_]=log(1+dic_[key_])*idf
+    return docs
 
+def get_field_list(query):
+    query = query.replace("body:","b:").replace("title:","t:").replace("category:","c:").replace("infobox:","i:").replace("ref:","e")
+    words = query.split(" ")
+    dictionary_query = {}
+    field = ""
+    for word in words:
+        if re.search(r'[t|b|c|e|i]{1,}:', word):
+            field = word.split(':')[0]
+            word = word.split(':')[1]
+        if field not in dictionary_query.keys():
+            dictionary_query[field] = []
+        dictionary_query[field].append(word)
+    return dictionary_query
 
-def write_file(outputs, path_to_output):
-    '''outputs should be a list of lists.
-        len(outputs) = number of queries
-        Each element in outputs should be a list of titles corresponding to a particular query.'''
-    with open(path_to_output, 'w') as file:
-        for output in outputs:
-            for line in output:
-                file.write(line.strip() + '\n')
-            file.write('\n')
+def get_title_of_doc(doc_id):
+    file_num = int(doc_id/files_to_index_at_a_time)
+    line_num = int(doc_id%files_to_index_at_a_time)
+    with open(index_folder_path+"/offset_title"+str(file_num)+".txt") as f:
+        mylist = f.read().splitlines()    
+    title_file = open(index_folder_path+"/title"+str(file_num)+".txt",'r')
+    title_file.seek(int(mylist[line_num]))
+    result  = title_file.readline().strip()
 
-
-def search_help(path_to_index, queries):
-    '''Write your code here'''
-    search_dic = load_index_dictionary(path_to_index)
-    title_pid = load_titles(path_to_index)
-    result = []
-    for query in queries:
-        all_word_docs = Search(query,search_dic)
-        result.append(title_for_docs(all_word_docs,title_pid,10))
+    title_file.close()
     return result
 
+def get_titles(doc_ids):
+    titles=[]
+    for doc_id in doc_ids:
+        if(len(titles)>=10):
+            break
+        titles.append(get_title_of_doc(doc_id))
+    return titles
+def search_helper(query):
+    dict_={}
+    if ":" in query:
+        dict_ = calculate_tf_idf_of_docs_field(query)
+    else:
+        dict_ = calculate_tf_idf_of_docs_normal(query)
+    sorted_x = sorted(dict_.items(), key=lambda kv: kv[1],reverse=True)
+    return get_titles([a[0] for a in sorted_x])
+secondary_list=[]
+index_folder_path = sys.argv[1]
+with open(index_folder_path+'/secondary_index.txt') as f:
+    secondary_list= f.read().splitlines() 
+    secondary_list = [a.split(" ")[0] for a in secondary_list]
+cmd ="cmd"
+while cmd!="exit":
+    cmd = input("\nEnter Query : ")
+    if cmd=="exit":
+        continue
 
-def main():
-    path_to_index_folder = sys.argv[1]
-    if path_to_index_folder[len(path_to_index_folder)-1]=="/":
-        path_to_index_folder = path_to_index_folder[:-1]
-    testfile = sys.argv[2]
-    path_to_output = sys.argv[3]
-    queries = read_file(testfile)
-    outputs = search_help(path_to_index_folder, queries)
-    write_file(outputs, path_to_output)
+    i=1
+    start_s = datetime.datetime.now()
+    res = search_helper(cmd)
+    end_s = datetime.datetime.now()
+    print("Results for Query \""+cmd+"\" in ",(end_s - start_s).seconds," seconds")
+    for r in res:
+        print(str(i)+".",r)
+        i+=1
 
 
-if __name__ == '__main__':
-    main()
