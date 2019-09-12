@@ -1,6 +1,6 @@
-python3 search.py indexfolder                               searchtest.txt           quer.txt
-		  path of folderwhich contains indexfile    path of file which       path to output file
-                  dont include "/" in the end               contains queries
+python3 search.py indexfolder                               
+		  path of folderwhich contains indexfile    
+                  dont include "/" in the end               
 
 
 python3 wiki_indexer.py input_data/input.xml indexfolder
